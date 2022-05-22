@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Zx0mfIrshGqVjnALmHGa/DwGgPnfSWwTqxg2i7eLJV0iFjEerAevh8lAUBOzQD4s/2NJwQa0geVz0HpWOphp/A==",
+  "dgSpecHash": "LH+1z8qorIUIDghKIFjxqj7DFMNdD5qmji8evmr1ShCzxnaMXQYacQ5nAmz+iYIe9RuNzCt58tzFnk3FEXNeTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\m.mahammadi\\source\\repos\\ApiParameter-V1\\ApiParameter-V1\\ApiParameter-V1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\m.mahammadi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\m.mahammadi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\m.mahammadi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\m.mahammadi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\m.mahammadi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\m.mahammadi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
