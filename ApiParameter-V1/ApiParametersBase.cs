@@ -1,4 +1,6 @@
-﻿namespace ApiParameter_V1
+﻿using System.Reflection.Metadata;
+
+namespace ApiParameter_V1
 {
     public class ApiParametersBase
     {
@@ -30,5 +32,29 @@
                 _values.Add(key,value);
         }
 
+        public string ReadString(string name, bool isRequired)
+        {
+            IParameter<string> parameter = this.Read
+        }
+
+        public IParameter<T> ReadParameter<T>(string name, bool isRequired, bool valueIsRequired)
+        {
+            IParameter<T> parameter = this.ReadParameter<T>(name, isRequired);
+        }
+
+        public IParameter<T> ReadParameter<T>(string name, bool isRequired)
+        {
+            Parameter<T> parameter = new Parameter<T>()
+            {
+                Name = name
+            };
+            object obj;
+            if (!this._values.TryGetValue(name, out obj))
+            {
+                if (isRequired)
+                    throw new UnprocessableEntityException(string.Format("invalid_{0}", name), string.Format("value of {0} is required", name));
+                return parameter;
+            }
+        }
     }
 }
